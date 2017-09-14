@@ -2,7 +2,7 @@
   "name": "src/assets/js/app",
   "autoload": {
     "psr-0" : {
-      "src\\assets\\js\\app" : "src"
+      "assets\\js\\app" : "src"
     }
   }
 }
