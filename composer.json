@@ -1,0 +1,8 @@
+{
+  "name": "classes/simple-shopping-cart",
+  "autoload": {
+    "psr-0" : {
+      "classes\\simple-shopping-cart" : "src"
+    }
+  }
+}
