@@ -1,8 +1,8 @@
 {
-  "name": "classes/simple-shopping-cart",
+  "name": "src/assets/js/app",
   "autoload": {
     "psr-0" : {
-      "classes\\simple-shopping-cart" : "src"
+      "src\\assets\\js\\app" : "src"
     }
   }
 }
