@@ -20,7 +20,6 @@
     }
   ],
   "require": {
-    "... other libraries": "... other version",
     "robert-mill/simple-shopping-cart": "dev-master"
   }
 }
