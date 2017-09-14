@@ -1,8 +1,9 @@
 {
   "name": "src/assets/js/app",
   "autoload": {
-    "psr-0" : {
-      "assets\\js\\app" : "src"
-    }
+     "files" : [
+       "src/assets/js/app.js"
+     ]
+
   }
 }
