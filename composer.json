@@ -2,8 +2,8 @@
   "name": "robertmill/simpleshoppingcart",
   "autoload": {
     "psr-0" : {
-      "robertmill\\simpleshoppingcart" : "src"
-    },
-    "minimum-stability":"dev"
+      "robertmill\\simpleshoppingcart" : "src",
+      "minimum-stability":"dev"
+    }
   }
 }
