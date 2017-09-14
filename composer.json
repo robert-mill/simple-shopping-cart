@@ -1,9 +1,10 @@
 {
+  "name": "robert-mill/simple-shopping-cart",
   "repositories": [
     {
       "type": "package",
       "package": {
-        "name": "robert-mill/simple-shopping-cart",
+        
         "version": "dev-master",
         "source": {
           "url": "https://github.com/robert-mill/simple-shopping-cart.git",
