@@ -1,19 +1,21 @@
-"repositories": [
-  {
-      "type" : "package",
-      "package" : {
-          "name" : "robert-mill/simple-shopping-cart",
-          "version": "dev-master",
-          "source" : {
-              "url" : "https://github.com/robert-mill/simple-shopping-cart",
-              "type" : ""
-          },
-            "autoload": {
-            "psr-4": {
-                "": "src/"
-            }
+{
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "robert-mill/simple-shopping-cart",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/robert-mill/simple-shopping-cart",
+          "type": ""
+        },
+        "autoload": {
+          "psr-4": {
+            "": "src/"
           }
+        }
       }
-  }
-]
+    }
+  ]
+}
 
