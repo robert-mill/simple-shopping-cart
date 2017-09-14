@@ -13,13 +13,13 @@
         },
         "autoload": {
           "psr-0": {
-            "robert-mill\\simple-shopping-cart": "src"
+            "robert-mill\\simple-shopping-cart":"*"
           }
         }
       }
     }
   ],
   "require": {
-    "robert-mill/simple-shopping-cart": "dev-master"
+    "robert-mill/simple-shopping-cart":"dev-master"
   }
 }
