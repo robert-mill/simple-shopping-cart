@@ -1,11 +1,8 @@
 {
-  "name": "classes/hello-world",
+  "name": "robertmill/simpleshoppingcart",
   "autoload": {
     "psr-0" : {
-      "classes\\hello-world" : "src"
-    },
-    "files" : [
-      "src/assets/js/app.js"
-    ]
+      "robertmill\\simpleshoppingcart" : "src"
+    }
   }
 }
