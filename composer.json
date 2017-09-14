@@ -1,9 +1,11 @@
 {
-  "name": "src/assets/js/app",
+  "name": "classes/hello-world",
   "autoload": {
-     "files" : [
-       "src/assets/js/app.js"
-     ]
-
+    "psr-0" : {
+      "classes\\hello-world" : "src"
+    },
+    "files" : [
+      "src/assets/js/app.js"
+    ]
   }
 }
