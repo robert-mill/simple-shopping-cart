@@ -3,6 +3,7 @@
   "autoload": {
     "psr-0" : {
       "robertmill\\simpleshoppingcart" : "src"
-    }
+    },
+    "minimum-stability":"dev"
   }
 }
