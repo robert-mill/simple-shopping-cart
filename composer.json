@@ -12,9 +12,7 @@
           "reference": "master"
         },
         "autoload": {
-          "psr-0": {
-            "robert-mill\\simple-shopping-cart":"*"
-          }
+          "psr-0": {"robert-mill\\simple-shopping-cart":"*"}
         }
       }
     }
