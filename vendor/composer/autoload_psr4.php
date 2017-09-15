@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'robert-mill\\simple-shopping-cart\\' => array($baseDir . '/src'),
 );

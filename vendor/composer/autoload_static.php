@@ -6,20 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitf9f25e690a3dce238196311c129d8974
 {
-    public static $prefixesPsr0 = array (
-        'c' => 
+    public static $prefixLengthsPsr4 = array (
+        'r' => 
         array (
-            'classes\\simple-shopping-cart' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
+            'robert-mill\\simple-shopping-cart\\' => 33,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'robert-mill\\simple-shopping-cart\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInitf9f25e690a3dce238196311c129d8974::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf9f25e690a3dce238196311c129d8974::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf9f25e690a3dce238196311c129d8974::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
