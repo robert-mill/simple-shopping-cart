@@ -3,7 +3,7 @@
     "description": "'simple shopping cart app'",
     "type": "library",
     "require": {
-        "simpleShoppingCart/src": "1.0"
+        "rmill_000/simple-shopping-cart": "src"
     },
     "license": "MIT",
     "authors": [
