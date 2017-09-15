@@ -1,24 +1,12 @@
 {
   "name": "robert-mill/simple-shopping-cart",
-  "repositories": [
+  "description": "Basic shopping cart",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
     {
-      "type": "package",
-      "package": {
-
-        "version": "1.0",
-        "source": {
-          "url": "https://github.com/robert-mill/simple-shopping-cart.git",
-          "type": "git",
-          "reference": "master"
-        },
-        "autoload": {
-          "psr-4": {"robert-mill\\simple-shopping-cart":"1.0"}
-        }
-      }
+      "name": "Robert Mill",
+      "email": "robert@robertmill.com"
     }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "robert-mill/simple-shopping-cart":"1.0"
-  }
+  ]
 }
