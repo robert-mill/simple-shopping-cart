@@ -1,9 +1,9 @@
 {
-    "name": "rmill_000/simple-shopping-cart",
+    "name": "robert-mill/simple-shopping-cart",
     "description": "'simple shopping cart app'",
     "type": "library",
     "require": {
-        "classes/simple-shopping-cart": "1.0"
+        "php": ">=5.5.9"
     },
     "license": "MIT",
     "authors": [
@@ -12,5 +12,10 @@
             "email": "r.mill@ntlworld.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "robert-mill\\simple-shopping-cart\\": "src"
+        }
+    }
 }
