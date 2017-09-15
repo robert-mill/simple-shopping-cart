@@ -1,12 +1,16 @@
 {
-  "name": "robert-mill/simple-shopping-cart",
-  "description": "Basic shopping cart",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "Robert Mill",
-      "email": "robert@robertmill.com"
-    }
-  ]
+    "name": "rmill_000/simple-shopping-cart",
+    "description": "'simple shopping cart app'",
+    "type": "library",
+    "require": {
+        "#": "1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Mill",
+            "email": "r.mill@ntlworld.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
