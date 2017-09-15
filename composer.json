@@ -12,7 +12,6 @@
             "email": "r.mill@ntlworld.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "robert-mill\\simple-shopping-cart\\": "src"
