@@ -12,12 +12,12 @@
           "reference": "master"
         },
         "autoload": {
-          "psr-4": {"robert-mill\\simple-shopping-cart":"*"}
+          "psr-4": {"robert-mill\\simple-shopping-cart":""}
         }
       }
     }
   ],
   "require": {
-    "robert-mill/simple-shopping-cart":"1.0*"
+    "robert-mill/simple-shopping-cart":"dev-master"
   }
 }
