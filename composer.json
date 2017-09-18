@@ -2,8 +2,11 @@
     "name": "robert-mill/simple-shopping-cart",
     "description": "'simple shopping cart app'",
     "type": "library",
+    "minimum-stability": "dev",
     "prefer-stable" : true,
     "license": "MIT",
+
+
     "authors": [
         {
             "name": "Robert Mill",
